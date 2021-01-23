@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Teb projekt</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm bg-dark">
+        <div class="my-0 mr-md-auto logo"></div>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 nav-text" href="about.html">
+                O Nas
+            </a>
+            <a class="p-2 nav-text" href="contact.html">
+                Kontakt
+            </a>
+            <a class="p-2 nav-text" href="login.html">
+                Zaloguj się
+            </a>
+            <a class="p-2 pl-5 nav-text social" href="https://www.facebook.com/tebedukacja">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Imię i nazwisko</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adres email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="offer">O którą ofertę chcesz zapytać?</label>
+                            <select class="form-control" id="offer">
+                                <option>Szkoły policealne</option>
+                                <option>Szkoły medyczne</option>
+                                <option>Kierunki online</option>
+                                <option>Technikum</option>
+                                <option>Akademia III wieku</option>
+                                <option>Liceum dla dorosłych</option>
+                                <option>Kursy i szkolenia</option>
+                                <option>Projekty unijne EFS</option>
+                                <option>Produkt plus</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mb-2">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12">
+                    <small class="d-block mb-3 text-muted text-center">TEB Edukacja</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
